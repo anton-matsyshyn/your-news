@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourNews.WebAPI", "YourNews.WebAPI\YourNews.WebAPI.csproj", "{9D25F38C-D7B6-4D3B-8B8A-04C347EB1C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourNews.WebAPI", "YourNews.WebAPI\YourNews.WebAPI.csproj", "{9D25F38C-D7B6-4D3B-8B8A-04C347EB1C55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourNews.DAL", "YourNews.DAL\YourNews.DAL.csproj", "{03BC7FF4-8FF5-4D46-BD33-1EDEAAFB097D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourNews.DAL", "YourNews.DAL\YourNews.DAL.csproj", "{03BC7FF4-8FF5-4D46-BD33-1EDEAAFB097D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourNews.BLL", "YourNews.BLL\YourNews.BLL.csproj", "{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{03BC7FF4-8FF5-4D46-BD33-1EDEAAFB097D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BC7FF4-8FF5-4D46-BD33-1EDEAAFB097D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03BC7FF4-8FF5-4D46-BD33-1EDEAAFB097D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
