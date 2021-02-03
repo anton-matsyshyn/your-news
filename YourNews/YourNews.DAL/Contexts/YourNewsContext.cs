@@ -5,9 +5,6 @@ namespace YourNews.DAL.Contexts
 {
     public class YourNewsContext : DbContext
     {
-		public YourNewsContext() //check
-		{
-		}
 
 		public YourNewsContext(DbContextOptions<YourNewsContext> options) : base(options)
         { }

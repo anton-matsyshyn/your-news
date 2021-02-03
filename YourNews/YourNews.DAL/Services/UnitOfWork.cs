@@ -5,7 +5,12 @@ namespace WebApplication1.Models
 
 	public class UnitOfWork : IUnitOfWorks
 	{
-		public YourNewsContext db = new YourNewsContext();
+		public YourNewsContext db;
+
+		public UnitOfWork(YourNewsContext context)
+		{
+			this.db = context;
+		}
 		public void Save()
 		{
 			db.SaveChanges();
