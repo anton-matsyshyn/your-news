@@ -5,7 +5,8 @@ namespace YourNews.DAL.Contexts
 {
     public class YourNewsContext : DbContext
     {
-        public YourNewsContext(DbContextOptions<YourNewsContext> options) : base(options)
+
+		public YourNewsContext(DbContextOptions<YourNewsContext> options) : base(options)
         { }
         DbSet<Publisher> Publishers { get; set; }
         DbSet<Paper> Papers { get; set; }
