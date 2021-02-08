@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace YourNews.Shared
+namespace YourNews.Shared.DTO
 {
-	class UserDTO: MainEntityDTO
+	public class UserDTO: MainEntityDTO
 	{
         public string FirstName { get; set; }
         public string SecondName { get; set; }
