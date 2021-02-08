@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourNews.DAL", "YourNews.DA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourNews.BLL", "YourNews.BLL\YourNews.BLL.csproj", "{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourNews.Shared", "YourNews.Shared\YourNews.Shared.csproj", "{6D1A84AA-710C-469A-8A3B-45E45B93BC6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C5F324C-F12D-4620-AA12-EE2E57C62CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1A84AA-710C-469A-8A3B-45E45B93BC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1A84AA-710C-469A-8A3B-45E45B93BC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1A84AA-710C-469A-8A3B-45E45B93BC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1A84AA-710C-469A-8A3B-45E45B93BC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
