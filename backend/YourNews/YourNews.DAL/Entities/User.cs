@@ -4,7 +4,7 @@ using YourNews.DAL.Abstractions;
 
 namespace YourNews.DAL.Entities
 {
-    class User : MainEntity
+    public class User : MainEntity
     {
         public string FirstName { get; set; }
         public string SecondName { get; set; }

@@ -3,7 +3,7 @@ using YourNews.DAL.Abstractions;
 
 namespace YourNews.DAL.Entities
 {
-    class News : MainEntity
+    public class News : MainEntity
     {
         public string Title { get; set; }
         public string Content { get; set; }
